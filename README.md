@@ -1,6 +1,6 @@
 # ESP8266 3D Engine
 
-A lightweight 3D graphics engine designed to run on the ESP8266 microcontroller.  
+A lightweight 3D graphics engine designed to run on the ESP8266 microcontroller.
 It renders simple 3D objects in real time using optimized math and minimal memory, demonstrating basic transformations and perspective projection on highly constrained hardware.
 
 This project focuses on low-level graphics programming and efficient use of embedded resources.
@@ -31,6 +31,11 @@ These payloads are designed to demonstrate transformations, depth perception, an
 
 ## Display Support
 This engine currently supports **only SSD1306-based displays**. Other display controllers are not supported.
+
+## Dependencies
+- ESP8266WiFi.h
+- Adafruit-GFX.h
+- Adafruit-SSD1306.h
 
 ## Purpose
 This project is an experiment in pushing the limits of microcontroller graphics and exploring how far real-time rendering can go on minimal hardware.
