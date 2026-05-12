@@ -1,4 +1,4 @@
-# ESP8266 3D Engine
+# ESP8266 3D Engine ("Fizika" as nickname)
 
 A lightweight 3D graphics engine designed to run on the ESP8266 microcontroller.
 It renders simple 3D objects in real time using optimized math and minimal memory, demonstrating basic transformations and perspective projection on highly constrained hardware.
@@ -30,7 +30,7 @@ The engine includes several built-in rendering demos:
 These payloads are designed to demonstrate transformations, depth perception, and rendering performance under tight hardware constraints.
 
 ## Display Support
-This engine currently supports **only SSD1306-based displays**. Other display controllers are not supported.
+This engine currently supports **only SSD1306-based displays**. Other display controllers are not supported *yet*.
 
 ## Dependencies
 - ESP8266WiFi.h
