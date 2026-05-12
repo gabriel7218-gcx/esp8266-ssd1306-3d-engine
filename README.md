@@ -17,8 +17,8 @@ This project focuses on low-level graphics programming and efficient use of embe
 
 ## Wiring
 I²C connection:
-- **SDA -> D5**
-- **SCL -> D7**
+- **SDA -> D2**
+- **SCL -> D1**
 
 ## Payloads
 The engine includes several built-in rendering demos:
@@ -39,3 +39,6 @@ This engine currently supports **only SSD1306-based displays**. Other display co
 
 ## Purpose
 This project is an experiment in pushing the limits of microcontroller graphics and exploring how far real-time rendering can go on minimal hardware.
+
+## Images
+I'm lazy btw, until i finally take some pictures of the project.
