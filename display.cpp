@@ -12,8 +12,8 @@ static const unsigned long TEXT_MOVE_INTERVAL = 30000;
 static int textCorner = 0;
 
 void initDisplay() {
-  Wire.begin(D5, D7);
-  Wire.setClock(100000);
+  Wire.begin(D2, D1); // Changed the wiring for obvious reasons lol
+  Wire.setClock(100000); // Why 100kHz? cuz it's mostly stable
   display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
   display.clearDisplay();
   display.setTextColor(SSD1306_WHITE);
