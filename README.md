@@ -1,4 +1,4 @@
-# ESP8266 3D Engine ("Fizika" as nickname)
+# ESP8266 3D Engine Fizika
 
 A lightweight 3D graphics engine designed to run on the ESP8266 microcontroller.
 It renders simple 3D objects in real time using optimized math and minimal memory, demonstrating basic transformations and perspective projection on highly constrained hardware.
@@ -41,4 +41,4 @@ This engine currently supports **only SSD1306-based displays**. Other display co
 This project is an experiment in pushing the limits of microcontroller graphics and exploring how far real-time rendering can go on minimal hardware.
 
 ## Images
-I'm lazy btw, until i finally take some pictures of the project.
+Images will be added **as soon as possible**.
