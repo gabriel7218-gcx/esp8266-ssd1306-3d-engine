@@ -1,4 +1,4 @@
-# ESP8266 3D Engine Fizika
+# ESP8266 3D Engine (Fizika)
 
 A lightweight 3D graphics engine designed to run on the ESP8266 microcontroller.
 It renders simple 3D objects in real time using optimized math and minimal memory, demonstrating basic transformations and perspective projection on highly constrained hardware.
