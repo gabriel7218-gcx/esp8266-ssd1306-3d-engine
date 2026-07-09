@@ -33,7 +33,7 @@ These payloads are designed to demonstrate transformations, depth perception, an
 This engine currently supports **only SSD1306-based displays**. Other display controllers are not supported *yet*.
 
 ## Dependencies
-- ESP8266WiFi.h
+- ESP8266WiFi.h (to force the ESP8266 to be running at 80MHz)
 - Adafruit-GFX.h
 - Adafruit-SSD1306.h
 
